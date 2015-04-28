@@ -1,0 +1,9 @@
+initialize RSpec
+rspec --init
+
+Capybara
+gem install capybara
+
+
+in .rspec file add
+--require capybara/rspec
