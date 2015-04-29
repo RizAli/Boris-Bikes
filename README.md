@@ -71,6 +71,14 @@ Classes will implement a number of methods. To get an idea of what they may be, 
 
 
 
+# BDD?
+BDD is a process that relates Acceptance Tests (also known as Feature Tests) with Unit Tests. An Acceptance Test describes a high-level behaviour of the system and is usually closely related to a User Story. A Unit Test is a low-level test of a single component, usually created using TDD.
+
+BDD is all about the process of moving from User Stories to Feature (a.k.a. Acceptance) Tests, then from Feature Tests to Unit Tests, and then from Unit Tests to actual Features.
+
+The BDD cycle indicates how we start with a failing acceptance test, we create a related failing unit test, fix and refactor at the unit level and then fix and refactor at the acceptance level.
+
+
 
 
 

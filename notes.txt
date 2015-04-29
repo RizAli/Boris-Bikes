@@ -7,3 +7,6 @@ gem install capybara
 
 in .rspec file add
 --require capybara/rspec
+
+MVP:
+Minimum Viable Product (MVP) which is the minimum set of operating features needed for the client to test their business model, but before that one needs to start with a single user story.
