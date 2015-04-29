@@ -12,4 +12,8 @@ feature 'member of public accesses bike' do
     docking_station = DockingStation.new
     expect { docking_station.release_bike }.to raise_error "No bikes available"
   end
+
+
+
+
 end

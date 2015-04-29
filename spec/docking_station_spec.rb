@@ -15,4 +15,9 @@ describe DockingStation do
   it 'can dock a bike' do
     expect(subject.dock :bike).to be nil
   end
+
+  it 'can set a capacity' do
+    docking_station = DockingStation.new
+    docking_station.capacity = 30
+  end
 end
