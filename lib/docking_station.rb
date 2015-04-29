@@ -9,6 +9,7 @@ class DockingStation
   def dock bike
     fail 'Station Full' if full?
     @bikes << bike
+    nil
   end
 
   def release_bike

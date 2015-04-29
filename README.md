@@ -83,6 +83,8 @@ BDD is all about the process of moving from User Stories to Feature (a.k.a. Acce
 The BDD cycle indicates how we start with a failing acceptance test, we create a related failing unit test, fix and refactor at the unit level and then fix and refactor at the acceptance level.
 
 
-
+As a maintainer of the system,
+So that I can manage broken bikes and not disappoint users,
+I'd like docking stations to only release working bikes.
 
 
