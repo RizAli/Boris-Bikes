@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/RizAli/Boris-Bikes.svg)](https://travis-ci.org/RizAli/Boris-Bikes)
+
+
 # BDD and OOD Boris-Bikes
 
 The goal of this project to demonstrate understanding of
