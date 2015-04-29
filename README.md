@@ -1,5 +1,8 @@
 [![Build Status](https://travis-ci.org/RizAli/Boris-Bikes.svg)](https://travis-ci.org/RizAli/Boris-Bikes)
 
+[![Code Climate](https://codeclimate.com/repos/5540a194e30ba021fa00f2a3/badges/2f60a295317b385459ba/gpa.svg)](https://codeclimate.com/repos/5540a194e30ba021fa00f2a3/feed)
+
+[![Test Coverage](https://codeclimate.com/repos/5540a194e30ba021fa00f2a3/badges/2f60a295317b385459ba/coverage.svg)](https://codeclimate.com/repos/5540a194e30ba021fa00f2a3/feed)
 
 # BDD and OOD Boris-Bikes
 
