@@ -9,6 +9,7 @@ class Bike
   end
 
   def working?
+
   end
 
   def report_broken

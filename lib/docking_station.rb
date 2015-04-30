@@ -3,14 +3,6 @@ class DockingStation
   DEFAULT_CAPACITY = 20
   attr_accessor :capacity
 
-  # def capacity
-  #   @capacity
-  # end
-
-  # def capacity=(capacity)
-  #   @capacity = capacity
-  # end
-
   def initialize capacity
     @capacity = capacity
   end
@@ -27,7 +19,6 @@ class DockingStation
 
   def release_bike
     raise 'No bikes available' if empty?
-    p @bikes
     if @bikes.last.broken?
       raise "No bikes available"
     else
