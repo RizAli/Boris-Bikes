@@ -1,6 +1,7 @@
 require 'docking_station'
 
 feature 'member of public accesses bike' do
+
   scenario 'docking station releases a working bike' do
     docking_station = DockingStation.new
     docking_station.dock Bike.new
@@ -13,7 +14,11 @@ feature 'member of public accesses bike' do
     expect { docking_station.release_bike }.to raise_error "No bikes available"
   end
 
-
-
-
+  scenario 'docking station does not release broken bikes' do
+    docking_station = DockingStation.new
+    bike = Bike.new
+    bike.report_broken
+    docking_station.dock bike
+    expect { docking_station.release_bike }.to raise_error 'No bikes available'
+  end
 end

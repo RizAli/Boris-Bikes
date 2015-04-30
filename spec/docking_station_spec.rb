@@ -20,4 +20,15 @@ describe DockingStation do
     docking_station = DockingStation.new
     docking_station.capacity = 30
   end
+
+  it 'does not release broken bikes' do
+    broken_bike = Bike.new
+    broken_bike.report_broken
+    subject.dock broken_bike
+    expect { subject.release_bike }.to raise_error 'No bikes available'
+  end
+
+
+
+
 end
